@@ -1,2 +1,7 @@
 # Blockhit
-The most customizable blockhit mod for Ornithe!
+
+The most customizable blockhit mod.
+
+## License
+
+[MIT](LICENSE)

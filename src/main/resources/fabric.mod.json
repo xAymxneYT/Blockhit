@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "blockhit",
+  "version": "${version}",
+  "name": "Blockhit",
+  "description": "The most customizable blockhit mod",
+  "authors": [
+    "xAymxneYT"
+  ],
+  "environment": "client",
+  "license": "MIT",
+  "icon": "assets/blockhit/icon.png",
+  "entrypoints": {
+    "client": [
+      "dev.blockhit.BlockhitClient"
+    ]
+  },
+  "mixins": [
+    "blockhit.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.8.9",
+    "fabricloader": ">=0.19.5",
+    "java": ">=21",
+    "oneconfig": ">=1.7.1"
+  },
+  "custom": {
+    "ornithe:intermediary-generation": 2
+  }
+}
